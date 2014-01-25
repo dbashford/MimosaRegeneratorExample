@@ -304,8 +304,8 @@ exports.config = {
                               # transpiling ES6 generators to valid es5 code
     # includeRuntime: false   # includes runtime
     # writeRuntime: true      # whether or not to write the runtime as a separate file
-    # runtimePath: 'wrapGenerator.js'  # valid when writeRuntime is true. The path
-                              # relative to watch.javascriptDir to where you would like
-                              # the runtime library to be written.
+    # runtimePath: 'wrapGenerator.js'  # valid when writeRuntime is true. Where you would
+                              # like the runtime to be written. The path is relative to
+                              # watch.javascriptDir.
 
 }
