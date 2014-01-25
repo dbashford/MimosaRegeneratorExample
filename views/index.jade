@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  p This is Mimosa's Regenerator Module Example
+  p Check the code in assets/javascripts/main.js and compare it with the code in public/javascripts/main.js
+  p Also note that mimosa-regenerator has written a wrapGenerator.js file to public/javascripts. This file is necessary for any file that is written with ES6 generators to function properly after it has been compiled.
+  if optimize
+    p Optimized mode.  You are getting a single RequireJS optimized JavaScript file which includes all the page dependencies.
